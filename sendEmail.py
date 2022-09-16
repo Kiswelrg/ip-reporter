@@ -2,13 +2,13 @@ import smtplib, ssl
 import socket
 
 def sendEmail(ip):
-    port = 465  # For SSL
-    smtp_server = "smtp.qq.com"
-    sender_email = "916650903@qq.com"  # Enter your address
-    receiver_email = "916650903@qq.com"  # Enter receiver address
-    password = 'ijedbopnlivzbbih'
+    port = 465  # For SSL (or you can swtich to the other protocal)
+    smtp_server = "" # Choose your smtp server of your email
+    sender_email = ""  # Enter your address
+    receiver_email = ""  # Enter receiver address
+    password = ''
 
-    message = """From: 916650903@qq.com\r\nSubject: Hi there, {} 
+    message = """From: <who> \r\nSubject: Hi there, {} 
 
     This message is sent from Python.""".format(ip)
 
@@ -25,7 +25,7 @@ s.connect(("8.8.8.8", 80))
 ipv4 = s.getsockname()[0]
 s.close()
 
-with open('/home/kiswelrg/Projects/scripts/ip.txt','r+',encoding='utf-8') as f:
+with open('/YourFilePath/ip.txt','r+',encoding='utf-8') as f:
     if f.read() != ipv4 and ipv4 is not None:
         f.seek(0)
         f.truncate()
