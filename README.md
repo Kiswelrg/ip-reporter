@@ -3,5 +3,7 @@ Email you if your pc's ip address changes. This project helps me when I want to 
 
 ## Usage
 1. run start.sh and start_checkip.sh after changing file dirs in scripts.  
-2. replace 'your internect connection name' with yours after command nmcli c up ...
+2. replace 'YourPPPoeName' with yours after command nmcli c up, it is the pppoe connection name created in your linux.
 
+## Platform
+linux
