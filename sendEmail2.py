@@ -3,12 +3,12 @@ import socket
 
 def sendEmail(ip):
     port = 465  # For SSL
-    smtp_server = "smtp.qq.com"
-    sender_email = "916650903@qq.com"  # Enter your address
-    receiver_email = "916650903@qq.com"  # Enter receiver address
-    password = 'ijedbopnlivzbbih'
+    smtp_server = ""
+    sender_email = ""  # Enter your address
+    receiver_email = ""  # Enter receiver address
+    password = ''
 
-    message = """From: 916650903@qq.com\r\nSubject: Hi there, {} 
+    message = """From: <who> \r\nSubject: Hi there, {} 
 
     This message is sent from Python.""".format(ip)
 
