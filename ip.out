@@ -1,8 +1,1 @@
-Traceback (most recent call last):
-  File "/home/kiswelrg/Projects/scripts/sendEmail.py", line 24, in <module>
-    s.connect(("8.8.8.8", 80))
-OSError: [Errno 101] Network is unreachable
-From: 916650903@qq.com
-Subject: Hi there, 10.140.11.134 
 
-    This message is sent from Python.
