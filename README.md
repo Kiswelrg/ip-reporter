@@ -2,7 +2,7 @@
 Email you when your linux machine's ip address changes.
 
 ### Motive
-Couldn't afford some cloud drive, so instead I use my pc(intel i3 without a dedicated gpu👍) from the lab at school.  
+Couldn't afford some cloud drive, and didn't have a router to support a fixed IP, so instead I use my pc(intel i3 without a dedicated gpu👍) from the lab at school.  
 This project helps me a lot when I want to log in to my pc located at the lab while I'm at my dorm. Since our school internet condition is unstable asf, my pc's ip address changes frequently, this is the only workaround that works for me.  
 
 ### Usage
